@@ -1,0 +1,42 @@
+.img1{
+    float:left ;
+    margin-top: -10px;
+    margin-left: 100px;
+    margin-right: -100px;
+    padding: 1px;
+}
+header{
+    display: flex;
+    font-size: 30 sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+
+    padding: 2px;
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20%;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+nav a{
+
+    margin-top: 5%;
+    padding-inline: -50%;
+    margin-left: 30%;
+    padding-right: 20%;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+body{
+    background-color: rgb(19, 18, 18);
+    color: aliceblue;
+}

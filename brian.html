@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian</title>
+    <link rel="stylesheet" href="brian.css">
+    <style>
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <header>
+
+        <div class="img1">
+            <img src="wolke.jpg" alt="" width="80px">
+        </div>        
+        <nav>
+            
+            <a href="index.html"> Início </a>
+            <a href="projetos.html">Projetos</a>
+            <a href="#" id="grupo-link">Grupo</a>
+        </nav>
+    </header>
+    <div class="link hidden">
+        <li>
+            <ol><a href="brian.html">Brian</a></ol>
+            <ol><a href="daniel.html">Daniel</a></ol>
+            <ol><a href="igor.html">Igor</a></ol>
+            <ol> <a href="riquelme.html">Riquelme</a></ol>
+            <ol><a href="romulo.html">Rômulo</a></ol>
+        </li>
+    </div>
+    <script>
+
+        const grupoLink = document.getElementById('grupo-link');
+        const textElementToShow = document.querySelector('.link.hidden');
+        grupoLink.addEventListener('click', (event) => {
+
+            textElementToShow.classList.remove('hidden'); // Mostra o elemento oculto
+        });
+
+        const t = document.querySelector('.link.hidden');
+        grupoLink.addEventListener('mouseenter',(event) => {
+
+            textElementToShow.classList.add('hidden'); // Mostra o elemento oculto
+        }
+
+        );
+
+</script>
+
+</body>
+</html>
